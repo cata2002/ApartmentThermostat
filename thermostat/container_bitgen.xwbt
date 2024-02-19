@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/proiect_set/container.ncd
+OUTFILE=/home/ise/proiect_set/container.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=/home/ise/proiect_set
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

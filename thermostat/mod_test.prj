@@ -1,0 +1,3 @@
+vhdl work "../project1/project/src/debouncer.vhd"
+vhdl work "clk_3s.vhd"
+vhdl work "mod_test.vhd"

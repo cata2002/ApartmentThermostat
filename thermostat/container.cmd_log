@@ -1,0 +1,392 @@
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf 
+bitgen -intstyle ise -f container.ut container.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 
+xst -intstyle ise -ifn "/home/ise/proiect_set/container.xst" -ofn "/home/ise/proiect_set/container.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc container.ucf -p xc7a100t-csg324-3 container.ngc container.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o container_map.ncd container.ngd container.pcf 
+par -w -intstyle ise -ol high -mt off container_map.ncd container.ncd container.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml container.twx container.ncd -o container.twr container.pcf -ucf container.ucf 
+bitgen -intstyle ise -f container.ut container.ncd 

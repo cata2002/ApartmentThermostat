@@ -1,0 +1,69 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 24 12:30:25 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cat<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "cat<5>" LOCATE = SITE "R10" LEVEL 1;
+COMP "cat<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "rst" LOCATE = SITE "M18" LEVEL 1;
+COMP "dir<0>" LOCATE = SITE "U12" LEVEL 1;
+COMP "dir<1>" LOCATE = SITE "U11" LEVEL 1;
+COMP "dir<2>" LOCATE = SITE "V10" LEVEL 1;
+COMP "set_specific<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "set_specific<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "set_specific<4>" LOCATE = SITE "T8" LEVEL 1;
+COMP "set_specific<3>" LOCATE = SITE "R13" LEVEL 1;
+COMP "set_specific<0>" LOCATE = SITE "R17" LEVEL 1;
+COMP "set_min_max<0>" LOCATE = SITE "U8" LEVEL 1;
+COMP "led_heat" LOCATE = SITE "H17" LEVEL 1;
+COMP "set_min_max<3>" LOCATE = SITE "H6" LEVEL 1;
+COMP "set_min_max<2>" LOCATE = SITE "T13" LEVEL 1;
+COMP "set_min_max<1>" LOCATE = SITE "R16" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "U13" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "K2" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "T14" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P14" LEVEL 1;
+COMP "an<4>" LOCATE = SITE "J14" LEVEL 1;
+COMP "an<5>" LOCATE = SITE "T9" LEVEL 1;
+COMP "an<6>" LOCATE = SITE "J18" LEVEL 1;
+COMP "an<7>" LOCATE = SITE "J17" LEVEL 1;
+COMP "led_rst" LOCATE = SITE "J13" LEVEL 1;
+COMP "cat<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "cat<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "cat<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "cat<3>" LOCATE = SITE "K13" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "c/c1/aux_0" BEL "c/c1/aux_1" BEL "c/c1/aux_2" BEL
+        "c/c1/aux_3" BEL "c/c1/aux_4" BEL "c/c1/aux_5" BEL "c/c1/aux_6" BEL
+        "c/c1/aux_7" BEL "c/c1/aux_8" BEL "c/c1/aux_9" BEL "c/c1/aux_10" BEL
+        "c/c1/aux_11" BEL "c/c1/aux_12" BEL "c/c1/aux_13" BEL "c/c1/aux_14"
+        BEL "c/c1/aux_15" BEL "simulare/clock/nr_31" BEL
+        "simulare/clock/nr_30" BEL "simulare/clock/nr_29" BEL
+        "simulare/clock/nr_28" BEL "simulare/clock/nr_27" BEL
+        "simulare/clock/nr_26" BEL "simulare/clock/nr_25" BEL
+        "simulare/clock/nr_24" BEL "simulare/clock/nr_23" BEL
+        "simulare/clock/nr_22" BEL "simulare/clock/nr_21" BEL
+        "simulare/clock/nr_20" BEL "simulare/clock/nr_19" BEL
+        "simulare/clock/nr_18" BEL "simulare/clock/nr_17" BEL
+        "simulare/clock/nr_16" BEL "simulare/clock/nr_15" BEL
+        "simulare/clock/nr_14" BEL "simulare/clock/nr_13" BEL
+        "simulare/clock/nr_12" BEL "simulare/clock/nr_11" BEL
+        "simulare/clock/nr_10" BEL "simulare/clock/nr_9" BEL
+        "simulare/clock/nr_8" BEL "simulare/clock/nr_7" BEL
+        "simulare/clock/nr_6" BEL "simulare/clock/nr_5" BEL
+        "simulare/clock/nr_4" BEL "simulare/clock/nr_3" BEL
+        "simulare/clock/nr_2" BEL "simulare/clock/nr_1" BEL
+        "simulare/clock/nr_0" BEL "simulare/buton/s1" BEL "simulare/buton/s2"
+        BEL "simulare/buton/s3" BEL "ora/divider_23" BEL "ora/divider_22" BEL
+        "ora/divider_21" BEL "ora/divider_20" BEL "ora/divider_19" BEL
+        "ora/divider_18" BEL "ora/divider_17" BEL "ora/divider_16" BEL
+        "ora/divider_15" BEL "ora/divider_14" BEL "ora/divider_13" BEL
+        "ora/divider_12" BEL "ora/divider_11" BEL "ora/divider_10" BEL
+        "ora/divider_9" BEL "ora/divider_8" BEL "ora/divider_7" BEL
+        "ora/divider_6" BEL "ora/divider_5" BEL "ora/divider_4" BEL
+        "ora/divider_3" BEL "ora/divider_2" BEL "ora/divider_1" BEL
+        "ora/divider_0" BEL "simulare/clock/aux" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
