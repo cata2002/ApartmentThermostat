@@ -1,12 +1,12 @@
 
+
 ||
 | :- |
 |DSD Project: Apartment thermostat|
 ||
-|<p>Student: George Cătălin Robotin</p><p>
-</p><p>![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.001.png)</p>|
-| :- |
 
+|<p>Student: George Cătălin Robotin</p><p></p>|
+| :- |
 
 
 Apartment thermostat
@@ -58,20 +58,13 @@ The temperature sensor is considered to already exist.
 
 # <a name="_toc104235466"></a>Chapter 1. Design
 1. # <a name="_toc104235467"></a>The Black Box
-![A screenshot of a computer
 
-Description automatically generated with low confidence]
 
 The Black Box shows an overview of all the inputs and outputs, visible for the end user, which correspond to the operations that can be executed using the thermostat. The “dir” input is used for the simulation mode, “clk” as we have a synchronous device, whilst “set\_min\_max” and “set\_specific” are used for the global and detailed setting of the temperature, respectively. The outputs are 8 seven segment displays, each with seven cathodes. The leftmost 6 can not be changed during normal execution, and the last 2 are used for visualization during data input. “Led\_heat” lights up when the setting of a value is confirmed, and “led\_rst” turns on when the reset button is pressed.
 
 #
 1. # <a name="_toc104235468"></a>Control and execution unit
-Execution unit
 
-Control unit
-![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.003.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.004.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.005.png)![A screenshot of a computer
-
-Description automatically generated with low confidence]
 
 The design is split into 2 main components, namely the Execution and Control Units. The Control Unit takes care of all the logic that needs to be taken into account for the system to work properly, sending signals to the Execution Unit, which contains all the components needed for each command to run properly.  
 
@@ -81,12 +74,7 @@ The design is split into 2 main components, namely the Execution and Control Uni
 
 
 # <a name="_toc104235469"></a>1.2.1. Mapping the inputs and outputs to the Control and Execution Units
-E.U.
 
-C.U.
-![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.007.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.008.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.009.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.010.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.011.png)![ref1]![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.013.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.014.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.015.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.016.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.017.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.018.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.019.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.020.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.021.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.022.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.023.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.024.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.025.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.026.png)![ref1]![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.027.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.028.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.029.png)![A picture containing diagram
-
-Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.030.png)
 
 All inputs and outputs are driven by the Control Unit, which dictates the behaviour of the system based on signals which it gives to and receives from the Execution Unit.
 
@@ -103,11 +91,9 @@ The resources are components from the Execution Unit which ensure that the syste
 # <a name="_toc104235471"></a>Resources:
 1. Seven segment display
 
-   ![Graphical user interface
+The component takes as input 8 4-bit signals, corresponding to each of the 8 displays on the board. Each display (anode) consists of 7 segments (cathodes), used to show the necessary information. The logic to do it requires other components, which are part of this one, namely: 
 
-Description automatically generated with medium confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.031.png)The component takes as input 8 4-bit signals, corresponding to each of the 8 displays on the board. Each display (anode) consists of 7 segments (cathodes), used to show the necessary information. The logic to do it requires other components, which are part of this one, namely: 
 
-	
 
 
 
@@ -120,9 +106,7 @@ Description automatically generated with medium confidence](Aspose.Words.39689fa
 
 1. A clock divider
 
-![A screenshot of a computer
-
-Description automatically generated with low confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.032.png)It is used to make the displayed information readable for the human eye, splitting the 100MHz of the board’s clock in such a way that every display is visible.
+It is used to make the displayed information readable for the human eye, splitting the 100MHz of the board’s clock in such a way that every display is visible.
 
 
 
@@ -136,22 +120,18 @@ Description automatically generated with low confidence](Aspose.Words.39689fad-2
 
 1. 8:1 Multiplexers
 
-   ![A screenshot of a computer
+It is used to select the display on which each digit goes. It has a width of 8 bits, each of which represents one of the displays.
 
-Description automatically generated with low confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.033.png)It is used to select the display on which each digit goes. It has a width of 8 bits, each of which represents one of the displays.
+There is also another 4 bit wide 8:1 multiplexer, which decides the input number, or the number to be converted, for the next
 
-   There is also another 4 bit wide 8:1 multiplexer, which decides the input number, or the number to be converted, for the next
-
-   resource, the decoder.  
+resource, the decoder.  
 
 
 
 
-1. ![A picture containing diagram
+1. Decoder
 
-Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.034.png)Decoder
-
-   The decoder takes the 4 bit digit and activates the corresponding anodes of the seven segment display, in order to show the correct symbol,
+The decoder takes the 4 bit digit and activates the corresponding anodes of the seven segment display, in order to show the correct symbol,
 
 
 
@@ -168,24 +148,18 @@ Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c7421
 
 1. Random number generator
 
-   ![A screenshot of a computer
-
-Description automatically generated with medium confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.035.png)The generator takes a 6 bit input, using the most significant one like a serial load and performs logic computations in order to generate a number in the range between 0 and 39, which acts as the temperature we would have from the sensor.
+The generator takes a 6 bit input, using the most significant one like a serial load and performs logic computations in order to generate a number in the range between 0 and 39, which acts as the temperature we would have from the sensor.
 
 
 
 
-1. ![A screenshot of a computer
+1. A 24 hour digital clock
 
-Description automatically generated with medium confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.036.png)A 24 hour digital clock
-
-   It is a more complex component, which includes a 1 second clock divider (shortened to verify functionality). It also combines 2 modulo 60 and 1 modulo 24 counter, for seconds, minutes and hours respectively. The current hour can only be input from the program. 
+It is a more complex component, which includes a 1 second clock divider (shortened to verify functionality). It also combines 2 modulo 60 and 1 modulo 24 counter, for seconds, minutes and hours respectively. The current hour can only be input from the program. 
 
 1. The user input component
 
-   ![A screenshot of a computer
-
-Description automatically generated with medium confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.037.png)This is the most complex resource of the project, dealing with both the simulation mode, controlled by the “dir” input, as well as the minimum and maximum temperature settings, through “set\_min\_max” and also the specific time setting, “set\_specific”. It outputs on the 2 remaining displays, which the user can control. Most of its logic is described behaviourally, but it still has another 2 distinct subcomponents:
+This is the most complex resource of the project, dealing with both the simulation mode, controlled by the “dir” input, as well as the minimum and maximum temperature settings, through “set\_min\_max” and also the specific time setting, “set\_specific”. It outputs on the 2 remaining displays, which the user can control. Most of its logic is described behaviourally, but it still has another 2 distinct subcomponents:
 
 
 
@@ -194,25 +168,16 @@ Description automatically generated with medium confidence](Aspose.Words.39689fa
 
 1. The debouncer
 
-   ![A screenshot of a computer
+It is used to delay the signal of a button, namely the reset button, in order not to produce misinputs.
 
-Description automatically generated with low confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.038.png)It is used to delay the signal of a button, namely the reset button, in order not to produce misinputs.
 
-	
 
-1. ![A picture containing diagram
+1. The 3 second clock divider
 
-Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.039.png)The 3 second clock divider
-
-   Frequency divider with the factor 300 million, in order to have a period of 3 seconds.
+Frequency divider with the factor 300 million, in order to have a period of 3 seconds.
 # <a name="_toc104235472"></a>1.2.3. Block diagram for first breakdown
-![Diagram
 
-Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.040.png)
 
-![Diagram
-
-Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.041.png)
 
 # <a name="_toc104235473"></a>1.3 The State Diagram for the Control Unit
 
@@ -242,15 +207,10 @@ Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c7421
 
 # <a name="_toc104235474"></a>1.4 Detailed diagram
 
-![A screenshot of a computer
 
-Description automatically generated with low confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.042.png)
 
 Each of the 4 components are made up of more smaller resources, as I showed in the Resources chapter. For example, the ssd is made up of the frequency divider, the 2 multiplexers and the decoder.
 
-![A screenshot of a computer
-
-Description automatically generated with low confidence](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.043.png)
 
 
 # <a name="_toc104235475"></a>Chapter2. Justification for chosen solution
@@ -260,20 +220,6 @@ I’ve written my code in such a way that it is as modular as possible, so that 
 
 # <a name="_toc104235476"></a>Chapter 3. User Manual
 
-
-
-
-
-
-
-![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.048.png)
-
-![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.048.png)
-
-
-![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.044.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.045.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.046.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.047.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.049.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.050.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.051.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.052.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.053.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.054.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.055.png)![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.056.png)![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![ref2]![](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.058.png)![A picture containing text, electronics, circuit
-
-Description automatically generated](Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.059.png)
 
 Switches:
 
@@ -331,11 +277,3 @@ In the future, I would like to split the simulation component into 3 smaller one
 
 14
 
-[A screenshot of a computer
-
-Description automatically generated with low confidence]: Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.002.png
-[A screenshot of a computer
-
-Description automatically generated with low confidence]: Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.006.png
-[ref1]: Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.012.png
-[ref2]: Aspose.Words.39689fad-2f05-4ca2-ae39-9c742161516e.057.png
